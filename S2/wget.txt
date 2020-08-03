@@ -3,7 +3,4 @@
 ------------------
 Processed 
 
-!wget —load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget —quiet —save-cookies /tmp/cookies.txt —keep-session-cookies —no-check-certificate 'https://docs.google.com/uc?export=download&id=1EHwnRFEHVEuL2opSu9K8UQqM7PdnbvBG' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1EHwnRFEHVEuL2opSu9K8UQqM7PdnbvBG" -O processed-drone-dataset.zip
-
-
-https://drive.google.com/file/d/1EHwnRFEHVEuL2opSu9K8UQqM7PdnbvBG/view?usp=sharing
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1EHwnRFEHVEuL2opSu9K8UQqM7PdnbvBG' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1EHwnRFEHVEuL2opSu9K8UQqM7PdnbvBG" -O drone-dataset.zip
